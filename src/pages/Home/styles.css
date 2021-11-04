@@ -1,0 +1,29 @@
+.home-container {
+    padding: 28px;
+    font-size: 36px;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-content h1 {
+    font-size: 1em;
+    font-weight: 700;
+    color: #000;
+    margin-left: 0;
+}
+
+.home-content h3 {
+    font-size: 0.5em;
+    font-weight: 700;
+    color: #7E7E7E;
+    margin-bottom: 25px;
+}
+
+@media (min-width:576px) {
+    .home-container {
+        font-size: 48px;
+    }
+}
